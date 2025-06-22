@@ -1074,5 +1074,163 @@ footer {
 }
 @media(max-width: 500px){
 }
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        padding: 15px 20px;
+    }
+
+    .nav-links {
+        margin-top: 15px;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .nav-links li a {
+        display: block;
+    }
+
+    .cart-icon {
+        margin-top: 15px;
+    }
+
+    .hero {
+        height: 300px;
+    }
+
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero-content p {
+        font-size: 0.95rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .categories, .featured-products, .testimonials, .blog-posts {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .category-card, .product-card, .testimonial-card, .blog-card {
+        width: 90%;
+        max-width: 350px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-column {
+        text-align: center;
+        margin-bottom: 25px;
+        min-width: unset;
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer-column h4 {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .newsletter-form input[type="email"], .newsletter-form .btn-subscribe {
+        width: 90%;
+        max-width: 350px;
+    }
+
+    /* Blog page specific for small screens */
+    .blog-post img {
+        height: 200px;
+    }
+    .blog-content h3 {
+        font-size: 1.3rem;
+    }
+    .blog-meta {
+        font-size: 0.8rem;
+    }
+    .blog-content p {
+        font-size: 0.85rem;
+    }
+
+    /* Contact page specific for small screens */
+    .kontakty-info, .chas-roboty, .iframe p {
+        font-size: 18px; /* Adjusted for smaller screens */
+    }
+    iframe {
+        height: 250px;
+    }
+}
+
+/* Extra Small devices (e.g., very small phones, 320px and up) */
+@media (max-width: 320px) {
+    .navbar {
+        padding: 10px 15px;
+    }
+
+    .logo-text {
+        font-size: 1rem;
+    }
+
+    .hero {
+        height: 250px;
+    }
+
+    .hero-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-content p {
+        font-size: 0.85rem;
+    }
+
+    .btn-shop {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .category-card, .product-card, .testimonial-card, .blog-card {
+        width: 95%;
+    }
+
+    .category-card p {
+        font-size: 0.75rem;
+    }
+
+    .product-card h3, .blog-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .price {
+        font-size: 1.1rem;
+    }
+
+    .newsletter-form input[type="email"], .newsletter-form .btn-subscribe {
+        width: 95%;
+    }
+
+    /* Contact page specific for extra small screens */
+    .kontakty-info, .chas-roboty, .iframe p {
+        font-size: 16px;
+    }
+    iframe {
+        height: 200px;
+    }
+}
 
 		
