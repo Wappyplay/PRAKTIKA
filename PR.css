@@ -1016,7 +1016,6 @@ iframe {
         width: 95%;
     }
 
-    /* Contact page specific for extra small screens */
     .kontakty-info, .chas-roboty, .iframe p {
         font-size: 16px;
     }
